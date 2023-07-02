@@ -1,0 +1,1 @@
+add_library(lib SQLDB/Column/Column.h SQLDB/Column/Column.cpp SQLDB/DB/DB.h SQLDB/DB/DB.cpp SQLDB/Table/Table.cpp SQLDB/Table/Table.h ../resources/resources.h)
