@@ -1,14 +1,14 @@
 # SQL DB
 
-Реляционная база данных в памяти с поддержкой упрощенных sql запросов.
+In-memory relational database with support for simplified SQL queries.
 
-## Задача
+## Task
 
-Реализована упрощенная реляционная БД с поддержкой "урезанного" sql. Работа выполнена в виде библиотеки, которая содержит класс SQLDB, которая обладает публичным методом для выполнения запроса.
+A simplified relational database with support for “stripped-down” sql has been implemented. The work is done in the form of a library that contains the SQLDB class, which has a public method for executing the query.
 
-### Поддерживаемый синтаксис
+### Supported syntax
 
-Ключевые слова:
+Keywords:
 
 - SELECT
 - FROM
@@ -29,20 +29,20 @@
 - PRIMARY KEY
 - FOREIGN KEY
 
-Поддерживаемые типы данных:
+Supported data types:
 
 - bool
 - int
 - double
 - varchar
 
-Ограничения:
+Restrictions:
 
-- вложенные подзапросы не поддерживаются
-- Join только для 2 таблиц
+- nested subqueries are not supported
+- Join only for 2 tables
 
-## Реализация
+## Implementation
 
-Для хранение данных используется только память.
+Only memory is used to store data.
 
-Не используются внешние библиотеки.
+No external libraries are used.
